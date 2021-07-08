@@ -1,0 +1,18 @@
+{
+    "name": "sarelvdwalt/tombstone",
+    "description": "Dead code detection utility.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sarelvdwalt\\Tombstone\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sarel van der Walt",
+            "email": "sarel.w@gmail.com"
+        }
+    ],
+    "require": {}
+}
