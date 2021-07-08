@@ -1,10 +1,7 @@
 <?php
-
-
 namespace SarelvdWalt\Tombstone;
 
-
-class TombstoneBase
+abstract class TombstoneBase
 {
 
 }
