@@ -25,6 +25,7 @@ abstract class TombstoneBase
     {
         if (!isset(self::$singleton)) {
             self::$singleton = new static();
+            register_shutdown_function([self::$singleton, 'shutdown']);
         }
 
         return self::$singleton;
