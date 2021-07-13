@@ -31,4 +31,6 @@ abstract class TombstoneBase
         return self::$singleton;
     }
 
+
+    abstract public function shutdown();
 }
